@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+
+.heading{
+    margin-left:10px;
+}
+
+
+
+/* CSS for product section */
+.container {
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    padding-top: 20px;
+    padding-left: 10px;
+
+  }
+  
+  .product {
+    margin-bottom: 40px;
+  }
+  
+  .product-image img {
+    max-width: 83%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Other styles as needed */
+  .textile {
+    color: #3366cc; /* Change color as desired */
+    font-weight: bold;
+  }
+  
+  .para {
+    margin-bottom: 20px;
+  }
+  
+  .product-para p {
+    margin-left:18px;
+  }
+  

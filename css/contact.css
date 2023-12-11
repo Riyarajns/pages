@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.address{
+    font-size: 20px;
+    background-color: white;
+    margin-right:14px;
+    margin-left:12px;
+    margin-top: 12px;
+    font-family: sans-serif;
+}
+
+.address span{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.mail-text{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
+
+.contact-content {
+    /* padding: 10px 15px; */
+    display: flex;
+    background: #212529;
+
+    justify-content: space-between;
+
+
+}
+
+.contact_area_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.contact_data_area {
+    border: 1px solid black;
+    
+}
+
+.contact_data_area1{
+    border: 1px solid black;
+    border-radius: 21px;
+    margin-right: 43%;
+   
+}
+
+@media (min-width:280px) and (max-width:540px){
+    .skypechat {
+        margin-left:2px;
+    }
+}
+
+@media (width:1280px){
+    .contact_data_area1{
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.contact_area_submit_btn {
+    width: 66%;
+    border-radius: 27px;
+    background-color: #0056b3;
+}
+
+.form {
+    width: 100%;
+}
+
+.skypechat{
+    margin-left: -26px;
+    text-align: center;
+    color:#212529;
+    text-decoration: none;
+    display: flex;
+  align-items: center;
+  margin-right: 50%;
+  /* Adjust margin-right to decrease the space between icon and text */
+  
+}
+
+@media (max-width:540px){
+.skypechat {
+    margin-left: -4px;
+    font-size: 15px;
+    text-align: center;
+    color: #212529;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: -48%;
+}
+
+
+}
+
+@media (min-width:768px) and (max-width:912px){
+    .contact_data_area {
+        margin-right:210px;
+        border-radius: 26px;
+
+    }
+
+    .contact_data_area1 {
+       margin-right:210px;
+}
+
+.contact_area_submit_btn {
+    margin-right: 250px;
+    width: 38%;
+    border-radius: 27px;
+    background-color: #0056b3;
+    margin-bottom: 35px;
+}
+}
+
+@media (min-width:1024px){
+
+    .contact_area_container {
+        flex-direction: column;
+        display: flex;
+        /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+        gap: 20px;
+    }
+
+    .contact_data_area {
+        margin-right:300px;
+        border-radius: 26px;
+
+    }
+
+    .contact_data_area1 {
+       margin-right:300px;
+}
+
+.contact_area_submit_btn {
+    margin-right: 413px;
+    width: 38%;
+    border-radius: 27px;
+    background-color: #0056b3;
+    margin-bottom: 35px;
+}
+
+}
+
+@media (min-width:768px)and (max-width:912px){
+    .skypechat {
+    margin-right: 27%;
+    }
+}
+
+.skypechat i {
+    display:flex;
+    align-items: center;
+    margin-right: 5px;
+  }
+
+/* Add this CSS to your stylesheet or within a <style> tag */
+.connect-text {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    
+  }
+  
+  
+
+@media (width:280px){
+    .connect-text {
+        margin-left: 5px;
+    }
+}
+@media (min-width:1025px){
+    
+        .form h3 {
+            margin-left:-45px;
+            margin-top: 0;
+        }
+
+        .skypechat {
+            margin-left: -45px;
+        }
+       
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+.form h3 {
+    margin-left:-26px;
+    margin-top: 0;
+}
+}
+
+.form-input,
+textarea {
+    /* width: calc(100% - 20px); */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Aligning the first form to the left */
+.contact-content .form:first-child {
+    text-align: left;
+}
+
+/* Aligning the second form to the right */
+.contact-content .form:last-child {
+    text-align: right;
+}
+
+
+
+
+.submit-form {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submit-form h3 {
+    margin-top: 0;
+}
+
+.form-input,
+
+.submit-btn {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+@media (max-width: 540px){
+    .contact_data_area {
+        margin-right: 44%;
+        margin-left: 2%;
+        font-size: 15px;
+        border: 1px solid black;
+        border-radius: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Aligning the first form to the left */
+.contact-content .form:first-child {
+    text-align: left;
+}
+
+/* Aligning the second form to the right */
+.contact-content .form:last-child {
+    text-align: right;
+}

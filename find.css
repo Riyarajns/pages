@@ -1,0 +1,69 @@
+/* Assuming some basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.form {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.left,
+.right {
+  width: 50%; /* Set half width for both left and right sections */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left {
+  order: -1; /* Change the order to display left content first on mobile */
+}
+
+.right {
+  order: 1; /* Change the order to display right content second on mobile */
+}
+
+.form h3 {
+  margin-top: 0;
+}
+
+.form-input,
+textarea,
+.submit-btn {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .left,
+  .right {
+    width: 100%; /* Full width on smaller screens */
+    order: initial; /* Reset the order */
+  }
+}
